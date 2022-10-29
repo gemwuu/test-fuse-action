@@ -32,9 +32,20 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      - name: Setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Check node
+        run: node -v
+
+      - name: Check npm
+        run: npm -v
+
       # Runs a single command using the runners shell
       - name: Install Dependencies
         run: npm i
-      
+
       - name: Run ci
         run: npm run ci
