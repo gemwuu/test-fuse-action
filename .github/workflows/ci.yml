@@ -22,9 +22,7 @@ jobs:
 
     container:
       image: rust:latest
-      options:
-        - --privileged
-        - --device /dev/fuse
+      options: --privileged --device /dev/fuse
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
