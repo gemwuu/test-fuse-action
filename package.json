@@ -1,0 +1,19 @@
+{
+  "name": "test-fuse-action",
+  "version": "1.0.0",
+  "description": "test fuse action",
+  "main": "index.js",
+  "scripts": {
+    "ci": "node ci.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gemwuu/test-fuse-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gemwuu/test-fuse-action/issues"
+  },
+  "homepage": "https://github.com/gemwuu/test-fuse-action#readme"
+}
