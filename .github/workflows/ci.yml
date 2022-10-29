@@ -26,11 +26,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Use fuse action
-        uses: gemwuu/fuse-docker-action@master
-        with:
-          fuse: true
-          privileged: true
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout code
